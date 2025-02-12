@@ -1,12 +1,12 @@
 import Image from "next/image";
-import ProjectCard from "./components/ProjectCard";
+import ProjectCard from "./components/ProjectCard"; // Ensure correct import path
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-gray-100 p-6">
       <div className="flex flex-col items-center bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
         <Image
-          src="/pic.jpg" // Ensure this path is correct
+          src="/pic.jpg" // Ensure this file exists in the 'public/' directory
           alt="Ismat Zehra"
           width={150}
           height={150}
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <p className="text-lg text-gray-700 text-center max-w-2xl mt-6">
-        Welcome to my portfolio! I have a strong background in education and years of experience working in an international organization. 
+        Welcome to my portfolio! I have a strong background in education and years of experience working in an international organization.
         My expertise lies in guiding, managing, and contributing to impactful projects.
       </p>
 
