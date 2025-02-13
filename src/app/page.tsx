@@ -12,7 +12,7 @@ export default function Home() {
           height={150}
           className="rounded-full border-4 border-gray-300 shadow-md"
         />
-        <h1 className="text-2xl font-bold text-gray-800 mt-4">Farwa batool</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mt-4">Farwa Batooll</h1>
         <p className="text-gray-600 text-center mt-2">
           Bachelors of Education, Karachi University (2010) <br />
           Experienced professional at Dianetics since 2011.
