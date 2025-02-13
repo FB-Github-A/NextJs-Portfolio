@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col items-center min-h-screen bg-gray-100 p-6">
       <div className="flex flex-col items-center bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
         <Image
-          src="/pic.jpg" // Ensure this file exists in the 'public/' directory
+          src="/profile.jpg" // Ensure this file exists in the 'public/' directory
           alt="Ismat Zehra"
           width={150}
           height={150}
