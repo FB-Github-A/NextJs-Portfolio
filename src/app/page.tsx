@@ -7,12 +7,12 @@ export default function Home() {
       <div className="flex flex-col items-center bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
         <Image
           src="/profile.jpg" // Ensure this file exists in the 'public/' directory
-          alt="Ismat Zehra"
+          alt="Farwa-batool"
           width={150}
           height={150}
           className="rounded-full border-4 border-gray-300 shadow-md"
         />
-        <h1 className="text-2xl font-bold text-gray-800 mt-4">Ismat Zehra</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mt-4">Farwa batool</h1>
         <p className="text-gray-600 text-center mt-2">
           Bachelors of Education, Karachi University (2010) <br />
           Experienced professional at Dianetics since 2011.
